@@ -20,8 +20,10 @@ WantedBy=multi-user.target
 
 
 sudo systemctl daemon-reload
-sudo systemctl enable qt-rgb-led.service
-sudo systemctl start qt-rgb-led.service
 
-sudo systemctl status qt-rgb-led.service
-journalctl -u qt-rgb-led.service -f
+sudo systemctl enable matrix.service
+
+sudo systemctl start matrix.service
+
+sudo systemctl status matrix.service
+journalctl -u matrix.service -f
