@@ -1,5 +1,72 @@
 # matrix
-Boxer Moster LED Matrix binary
+
+sudo apt install git
+git clone https://github.com/erwinek/matrix.git
+
+sudo nano /boot/firmware/cmdline.txt dodaj isolcpus=3
+
+sudo nano /etc/modprobe.d/raspi-blacklist.conf
+
+Open a terminal.
+Navigate to the directory: cd /etc/modprobe.d/
+Open the raspi-blacklist.conf file: sudo nano /etc/modprobe.d/raspi-blacklist.conf.
+Add the line blacklist snd_bcm2835 at the end of the file.
+Save and exit.
+Reboot the system: sudo reboot. 
+
+
+sudo apt-get install libgraphicsmagick++1-dev
+
+
+SERVICE
+sudo nano /etc/systemd/system/liv.service
+
+[Unit]
+Description=LED Matrix
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/matrix
+ExecStartPre=/bin/chmod 666 /dev/ttyUSB0
+ExecStart=/home/pi/matrix/led-image-viewer --serial /dev/ttyUSB0 --baud 1000000
+Restart=always
+User=root
+Group=root
+LimitCORE=infinity
+
+# Automatyczny restart po błędzie
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now liv.service
+sudo systemctl status liv.service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Service: /etc/systemd/system/matrix.service
 
