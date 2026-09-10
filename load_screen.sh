@@ -19,8 +19,12 @@ case "$screen_id" in
 	sudo /home/pi/matrix/led-image-viewer --config screen_config.ini --no-diagnostics
         ;;
     2)
-        echo "Uruchamiam scren 2"
+        echo "Uruchamiam screen 2 (MONSTER 64x512, 8 paneli)"
         sudo /home/pi/matrix/led-image-viewer --config screen_config_vertical.ini --no-diagnostics
+        ;;
+    3)
+        echo "Uruchamiam screen 3 (Matrix Hammer 64x832, 13 paneli)"
+        sudo /home/pi/matrix/led-image-viewer --config screen_config_hammer.ini --no-diagnostics
         ;;
     *)
 	sudo /home/pi/matrix/led-image-viewer --config screen_config.ini
