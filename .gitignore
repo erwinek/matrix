@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# paczka firmware na pendrive (budowana przez tools/pack_fw.ps1)
+matrix.fw
+*.fw.tmp
