@@ -1,0 +1,253 @@
+{
+  "HAMMER_A_TABLICA_PRZEZROCZYSTA_96x96": {
+    "size": [
+      96,
+      96
+    ],
+    "frames": 33,
+    "duration_ms": 3600,
+    "loop": true,
+    "board_position": [
+      3,
+      27
+    ]
+  },
+  "HAMMER_B_TABLICA_PRZEZROCZYSTA_64x512": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "loop": true,
+    "board_position": [
+      1,
+      149
+    ]
+  },
+  "HAMMER_RESULT_LOOP_BEZ_TABLICY_64x512": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "loop": true
+  },
+  "HAMMER_FINAL_GOOD_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 127,
+    "duration_ms": 12800,
+    "loop": false
+  },
+  "HAMMER_FINAL_GREAT_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 127,
+    "duration_ms": 12800,
+    "loop": false
+  },
+  "HAMMER_FINAL_MONSTER_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 127,
+    "duration_ms": 12800,
+    "loop": false
+  },
+  "HAMMER_FINAL_RECORD_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 127,
+    "duration_ms": 12800,
+    "loop": false
+  },
+  "HAMMER_HIT_0100_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 114,
+    "duration_ms": 11400,
+    "loop": false
+  },
+  "HAMMER_HIT_0100_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0200_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 114,
+    "duration_ms": 11400,
+    "loop": false
+  },
+  "HAMMER_HIT_0200_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0300_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 114,
+    "duration_ms": 11400,
+    "loop": false
+  },
+  "HAMMER_HIT_0300_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0400_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 114,
+    "duration_ms": 11400,
+    "loop": false
+  },
+  "HAMMER_HIT_0400_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0500_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 116,
+    "duration_ms": 11600,
+    "loop": false
+  },
+  "HAMMER_HIT_0500_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0600_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 116,
+    "duration_ms": 11600,
+    "loop": false
+  },
+  "HAMMER_HIT_0600_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0700_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 118,
+    "duration_ms": 11800,
+    "loop": false
+  },
+  "HAMMER_HIT_0700_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0800_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 118,
+    "duration_ms": 11800,
+    "loop": false
+  },
+  "HAMMER_HIT_0800_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_0900_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 118,
+    "duration_ms": 11800,
+    "loop": false
+  },
+  "HAMMER_HIT_0900_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  },
+  "HAMMER_HIT_1000_DESTRUKCJA_PLUS_8S": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 124,
+    "duration_ms": 12400,
+    "loop": false
+  },
+  "HAMMER_HIT_1000_KONCOWKA_PETLA": {
+    "size": [
+      64,
+      512
+    ],
+    "frames": 16,
+    "duration_ms": 1600,
+    "loop": true
+  }
+}

@@ -1,0 +1,8 @@
+MONSTER_UPORZADKOWANE_4 → anim short names
+Mode select (no COINS overlay in FW):
+  m_a_single12.gif  = CREDITS_1-2_SINGLE_GAME
+  m_a_choose.gif    = CREDITS_3+_CHOOSE_MODE
+  m_a_rules.gif     = TOURNAMENT_RULES
+  m_a_tour_go.gif   = MONSTER_TOURNAMENT_-3_CREDITS
+  m_a_single_ok.gif = MONSTER_SINGLE_-1_CREDIT
+Hammer bands: m_b_hit100..1000, m4_hit100..1000_{dest,loop}
