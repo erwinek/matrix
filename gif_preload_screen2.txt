@@ -1,0 +1,11 @@
+64 512 anim/m_b_ready.gif
+64 512 anim/m_b_again.gif
+64 512 anim/m_b_summary.gif
+64 512 anim/m_b_hit1000.gif
+64 512 anim/m_b_fin_good.gif
+64 512 anim/m_b_fin_great.gif
+64 512 anim/m_b_fin_mon.gif
+64 512 anim/m_b_fin_rec.gif
+64 512 anim/gwiazdki.gif
+64 512 anim/m_plate_b512.gif
+64 88 anim/m_score_plate.gif
