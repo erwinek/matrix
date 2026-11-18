@@ -38,6 +38,7 @@
 192 192 anim/m_x_kk_ready.gif
 192 192 anim/m_x_kk_res_loop.gif
 192 192 anim/m_x_kk_start.gif
+192 192 anim/m_x_pick_start.gif
 192 192 anim/m_x_tn_start.gif
 192 192 anim/RECORDS_CHALLENGE_TOTAL.gif
 30 17 anim/OKIENKO_CREDITS_A_MONETA_30x17_ANIM.gif
